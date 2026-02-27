@@ -59,12 +59,41 @@ const PrivacyPolicy = () => {
 
           <section>
             <h2 className="text-lg font-semibold text-foreground mb-3">5. Contact Information</h2>
-            <p>For privacy-related questions, contact:</p>
+            <p className="mb-4">For privacy-related questions, contact:</p>
             <p className="mt-2">
               <a href="mailto:3danbudentalscansramnadu2@gmail.com" className="text-primary hover:underline font-medium">
                 3danbudentalscansramnadu2@gmail.com
               </a>
             </p>
+            
+            <div className="mt-6 space-y-4 text-sm">
+              <h3 className="font-semibold text-foreground">Our Branches:</h3>
+              
+              <div>
+                <p className="font-medium text-foreground">Branch 1 – Salem</p>
+                <p>14, L.I.C. Colony, Opp. New Bus Stand, Hotel Vasantham Road, Salem - 636 004</p>
+                <p>Phone: 0427-4506600 / 75983 33600</p>
+                <p>Email: <a href="mailto:anbudentalscans@gmail.com" className="text-primary hover:underline">anbudentalscans@gmail.com</a></p>
+              </div>
+              
+              <div>
+                <p className="font-medium text-foreground">Branch 2 – Gugai, Salem</p>
+                <p>Door No.474/157A, Trichy Main Road, Opp. Saradha Medical, Near Jojo Momos, Gugai, Salem - 636 006</p>
+                <p>Phone: 0427-4510197 / 93639 17575</p>
+              </div>
+              
+              <div>
+                <p className="font-medium text-foreground">Branch 3 – Ramanathapuram</p>
+                <p>Door No.1/23, Marudhupandiyar Nagar, Bharathi Nagar, Ramanathapuram - 623 503</p>
+                <p>Phone: 04567-314044 / 93604 21853</p>
+                <p>Email: <a href="mailto:3danbudentalscansramnadu@gmail.com" className="text-primary hover:underline">3danbudentalscansramnadu@gmail.com</a></p>
+              </div>
+              
+              <div>
+                <p className="font-medium text-foreground">Branch 4 – Hosur</p>
+                <p>12/9 GRM Complex, Underground, Backside to Abi Fashions, Opp. CSI Church, Shanthi Nagar, Hosur - 635109</p>
+              </div>
+            </div>
           </section>
         </div>
       </main>
